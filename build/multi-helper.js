@@ -53,6 +53,7 @@ const generateTemplate = (env) => {
   return templateList
 }
 
+//生成多入口
 const getEntry = () => {
   let entries = {}
   const globPath = 'src/**/main.js'
