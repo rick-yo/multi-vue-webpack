@@ -61,7 +61,7 @@
     name: 'HelloWorld',
     data() {
       return {
-        msg: 'Welcome to Module1'
+        msg: 'Welcome to Module2'
       }
     }
   }

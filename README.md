@@ -1,12 +1,13 @@
 # multiWebpack
 
-> 基于vue-cli的多页webpack脚手架
+> 基于vue-cli的多入口webpack脚手架
+
+![Demo](build/demo.gif)
 
 ## 特点
 
 * 完全复用(抄袭)vue-cli的配置,在此基础上少量侵入代码即可更改为多页面配置
 * 不用担心脚手架更新维护问题,受益于vue-cli的更新
-* 方便二次开发(这一条是凑数的....)
 ## 改动
 
 * 新增```build/multi-helper.js```用于生成多入口和html打包
@@ -75,21 +76,10 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
 # build for production with minification
 npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+打开```http://localhost:8080/module1#/```就能看到页面啦~
