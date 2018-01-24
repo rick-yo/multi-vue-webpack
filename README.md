@@ -29,6 +29,10 @@ module.exports = {
 ├── config/
 │   ├── index.js                # main project config
 │   └── ...
+├── dist/
+├── ——module1/                  # html file
+├── ——module2/                  # html file
+├── ——static/                   # assets js css fonts etc.... and some assets copy from /static
 ├── src/
 ├── ——module1/
 │   ├── main.js                 # app entry file
