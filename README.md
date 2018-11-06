@@ -1,5 +1,7 @@
 # multiWebpack
 
+## 建议使用 `vue-cli@3`，此仓库不再维护 。
+
 > 基于vue-cli的多入口webpack脚手架
 
 ![Demo](build/demo.gif)
